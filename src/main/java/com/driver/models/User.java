@@ -17,7 +17,7 @@ public class User{
 
     //Mapping
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    @JoinColumn
+    //@JoinColumn
     private List<Blog> blogList;
 
     public User() {
